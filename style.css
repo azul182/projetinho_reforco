@@ -1,0 +1,57 @@
+html{
+    font-family: sans-serif;
+    background-color: #ccc;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+header textarea{
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+header #publicar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ACEE;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.tweet  {
+    position: relative;
+}
+
+.tweet img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.tweet p{
+    margin: 20px;
+    position: absolute;
+    left: 0;
+}
